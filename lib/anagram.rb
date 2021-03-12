@@ -12,8 +12,7 @@ attr_accessor :word
     anagrams.select do |word|
       word.chars.sort == @word.chars.sort
     end
+    binding.pry
   end
 
 end
-
-binding.pry
