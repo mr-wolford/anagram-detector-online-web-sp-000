@@ -15,3 +15,5 @@ attr_accessor :word
   end
 
 end
+
+binding.pry
